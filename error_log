@@ -1,0 +1,12 @@
+[02-May-2025 09:40:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'filemanager_admin'@'localhost' to database 'filemanager_db' in /home/oo86amecteqv/public_html/filemanager/config.php:7
+Stack trace:
+#0 /home/oo86amecteqv/public_html/filemanager/config.php(7): mysqli->__construct()
+#1 /home/oo86amecteqv/public_html/filemanager/index.php(3): include('/home/oo86amect...')
+#2 {main}
+  thrown in /home/oo86amecteqv/public_html/filemanager/config.php on line 7
+[02-May-2025 09:42:48 UTC] PHP Warning:  move_uploaded_file(uploads/Credit Society 2022.pdf): Failed to open stream: No such file or directory in /home/oo86amecteqv/public_html/filemanager/upload.php on line 10
+[02-May-2025 09:42:48 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpEBAVaT&quot; to &quot;uploads/Credit Society 2022.pdf&quot; in /home/oo86amecteqv/public_html/filemanager/upload.php on line 10
+[02-May-2025 09:44:06 UTC] PHP Warning:  move_uploaded_file(uploads/Credit Society 2022.pdf): Failed to open stream: No such file or directory in /home/oo86amecteqv/public_html/filemanager/upload.php on line 10
+[02-May-2025 09:44:06 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpqIilwE&quot; to &quot;uploads/Credit Society 2022.pdf&quot; in /home/oo86amecteqv/public_html/filemanager/upload.php on line 10
+[02-May-2025 09:45:28 UTC] PHP Warning:  move_uploaded_file(uploads/Credit Society 2022.pdf): Failed to open stream: No such file or directory in /home/oo86amecteqv/public_html/filemanager/upload.php on line 10
+[02-May-2025 09:45:28 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpuBwukg&quot; to &quot;uploads/Credit Society 2022.pdf&quot; in /home/oo86amecteqv/public_html/filemanager/upload.php on line 10
